@@ -105,16 +105,59 @@ div#contato div.txt-link{
 
 
 div.tecnologias {
-  background-color: red;
+  background-color: var(--bg-cards);
   width: 348px;
   height: 208px;
+  margin-left: 40px;
+  border-radius: 20px;
+  
+  
+}
+
+div.tecnologias h2 {
+  
+  margin-top: 30px;
+  margin-left: 18px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 div.tecnologias #gallery {
-  background-color: blue;
+  
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  margin-top: 20px;
+  margin-left: 26px;
+
 }
+
+div.tecnologias #gallery a {
+  height: 24px;
+  width: 86px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--bg-techs);
+
+ font-size: 10px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 13px;
+ text-align: center;
+ text-decoration: none;
+ color: black;
+}
+
+
+
+
 
 /*
 div.tecnologias #gallery a {
