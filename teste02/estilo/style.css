@@ -22,7 +22,6 @@ body{
 
 div.page {
   display: flex;
-  flex-direction: column;
   gap: 30px;
 }
 
@@ -30,6 +29,7 @@ div.esquerda {
   display: flex;
   flex-direction: column;
   gap:30px;
+  flex-basis: 25%;
   
 }
 
@@ -155,15 +155,217 @@ div.tecnologias #gallery a {
  color: black;
 }
 
+/*-------------------------------------------*/
 
+div.exp {
+  background-color: var(--bg-cards);
+  width: 348px;
+  height: 349px;
+  margin-left: 40px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 
-
-
-/*
-div.tecnologias #gallery a {
+div.exp h2{
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+ 
   
 }
 
+div.exp div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-top: 20px;
+}
 
-justify-content:center
-*/
+div.exp div ul {
+  display:flex;
+  flex-direction:column;
+  gap: 3px;
+}
+
+div.exp div ul li {
+  list-style-position: inside;
+  text-decoration: none;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px; 
+
+}
+
+div.exp div ul .especial {
+  list-style: none;
+  
+  font-weight: 100;
+  margin-left: 16px;
+  font-size: 12px;
+}
+
+div.exp div ul .especial2 {
+  list-style: none;
+  
+  margin-left: 16px;
+  margin-top: 2px;
+  font-size: 14px;
+}
+/*----------------------------------------*/
+
+div .edu {
+  background-color: var(--bg-cards);
+  width: 348px;
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+
+}
+
+div .edu h2 {
+  
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+#lista {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+#lista ul {
+  list-style: inside;
+}
+
+#lista ul li.text-m, .text-f {
+  list-style: none;
+  margin-left: 22px;
+} 
+
+
+#lista ul li.text-m {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 2.5px;
+}
+
+#lista ul li.text-f{
+  font-size: 12px;
+  font-weight: 100;
+  margin-top: 2.5px;
+  margin-bottom: 2px;
+}
+/*-----------------------------------------------*/
+
+div.direita {
+  background-color: black;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+div .direita div.n1 {
+  background-color: var(--bg-cards);
+  display: flex;
+  width: 952px;
+  height: 86px;
+  margin-top: 40px;
+  margin-left: 60px;
+  border-radius: 20px;
+
+}
+
+.myprojects {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myprojects p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  margin-left: 30px;
+}
+ 
+.myprojects a {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-right: 30px;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+/*----------------------------------*/
+
+div.n2 {
+  background-color: var(--bg-cards);
+  width: 461px;
+  height: 186px;
+  margin-left: 60px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  display: flex;
+  margin-top: 31px;
+}
+
+div.n2 .projetos {
+  display: flex;
+  gap: 600px;
+}
+
+div.n2 .projetos a img#q1 {
+  margin-right: 16px;
+  
+}
+
+div.n2 .projetos a div#agrupamento {
+
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+  
+}
+
+div.n2 .projetos a p {
+ 
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 22px;
+
+}
+
+div.n2 .projetos a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+div.star-fork-projects {
+ 
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
