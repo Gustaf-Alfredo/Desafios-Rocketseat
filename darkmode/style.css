@@ -1,0 +1,55 @@
+:root {
+    --dark: #292c35;
+    --light: #f1f1f1;
+    --label: #111;
+    --toggle-translate: 0;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    transition: 0.5s ease;
+  }
+  
+  body.dark {
+    background-color: var(--dark);
+    --toggle-translate: 7.7rem;
+  }
+  .checkbox {
+    display: none;
+  }
+  img {
+    width: 5.875rem;
+  }
+  .toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color: var(--label);
+    border-radius: 5rem;
+    height: 6rem;
+    width: 14rem;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .toggle .ball {
+    position: absolute;
+    background: #fff;
+    height: 5.4rem;
+    width: 5.4rem;
+    border-radius: 50%;
+    left: 0.5rem;
+    transform: translatex(var(--toggle-translate));
+    transition: transform 0.3s ease, 0.5s ease;
+  }
