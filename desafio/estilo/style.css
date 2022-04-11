@@ -482,6 +482,11 @@ div.desc div.texto div.tags {
 /* FOOTER -----------------------------------*/
 
 footer {
+    margin-left: 200px;
+}
+
+
+footer p{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
