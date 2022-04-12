@@ -10,6 +10,13 @@
     font-size: 62.5%; /* Default font size for: 1rem = 10px */
   }
 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
 
   /* ---- CLASSES ---- */
 .svg-color {
@@ -261,29 +268,10 @@ body {
 
 /*------ POSTS ------*/
 
+
 #posts > div.container.recent-posts.recent-posts-posts > div:nth-child(2) {
   line-height: 2;
   align-items: flex-start;
-}
-
-#posts
-  > div.container.recent-posts.recent-posts-posts
-  > div:nth-child(2)
-  > p:nth-child(2) {
-  font-size: 1.4rem;
-}
-#posts
-  > div.container.recent-posts.recent-posts-posts
-  > div:nth-child(2)
-  > p:nth-child(3) {
-  font-size: 1.6rem;
-}
-
-#posts
-  > div.container.recent-posts.recent-posts-posts
-  > div:nth-child(2)
-  > p:nth-child(4) {
-  font-size: 1.4rem;
 }
 
 #posts img {
@@ -294,7 +282,17 @@ body {
   color: var(--text-confira);
 }
 
+
 /*MEDIAS*/
+
+@media (max-width: 530px) {
+  div#teste00 {
+    font-size: 12px;
+  }
+}
+
+
+
 @media (min-width: 600px) {
   .links li {
     display: flex;
@@ -305,13 +303,17 @@ body {
   }
   .tecs p {
     display: flex;
-    font-size: 2rem;
+    font-size: 1rem;
   }
   #posts img {
     display: block;
   }
   #posts > div.container.recent-posts.recent-posts-posts > div:nth-child(2) {
     margin-left: 2rem;
+  }
+
+  div#teste00 {
+    font-size: 14px;
   }
 }
 
@@ -392,4 +394,9 @@ body {
     padding: 3rem;
     margin: 1rem !important;
   }
+
+  div#teste00 {
+    font-size: 16px;
+  }
 }
+
